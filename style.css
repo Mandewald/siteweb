@@ -1,0 +1,176 @@
+/* General styles */
+body {
+    background-color: #f2f2f2; /* Greyish background */
+    color: #333; /* Dark grey text color */
+    font-family: "Lora", serif;
+    font-size: 17px;
+
+}
+
+h1 {
+    color: #000; /* Black heading color */
+    font-weight: 800;
+    letter-spacing: 2px; /* Reduced letter spacing for better readability */
+    font-size: 36px; /* Slightly larger font size for h1 */
+    text-transform: uppercase;
+    font-family: "Courier", monospace; /* Courier font for h1 */
+}
+
+h2 {
+    color: #007bff; /* Blue heading color */
+    font-size: 28px; /* Slightly larger font size for h2 */
+    font-weight: lighter; /* Lighter font weight for h2 */
+    font-family: "Courier", monospace; /* Courier font for h2 */
+}
+
+a {
+    text-decoration: none;
+    color: #dc3545; /* Red link color */
+}
+
+a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Responsive container */
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc; /* Ajout d'une bordure en bas de chaque section */
+    padding-bottom: 20px; /* Ajout de marge entre le texte et la bordure */
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Style pour l'image */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+/* Keyframes pour l'animation de rebond de la balle de tennis */
+@keyframes tennis-bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Style pour la balle de tennis */
+.tennis-ball {
+    width: 50px;
+    content: "Babolat";
+    height: 50px;
+    background-color: #f9ed4d; /
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    animation: tennis-bounce 2s infinite;
+}
+
+
+.tennis-ball {
+    left: 10px;
+    bottom: 10px;
+}
+
+footer {
+            border: 2px solid black; /* Bordure noire de 2px autour du footer */
+            padding: 10px; /* Espace à l'intérieur de la bordure */
+        }
+
+        footer p {
+            border-top: 1px solid gray; /* Bordure grise de 1px en haut du paragraphe */
+            padding-top: 10px; /* Espace en haut du paragraphe */
+            margin-top: 10px; /* Marge en haut du paragraphe */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+header {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animation de fondu pour le titre principal */
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1 {
+    animation: fade-in 1s ease-out;
+}
+

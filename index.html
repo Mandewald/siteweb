@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil de Manon Dewald</title>
+    <meta name="description" content="Ceci est le profil de Manon">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!-- Assuming you have FontAwesome library -->
+    <link rel="stylesheet" href="style.css"> <!-- Your custom CSS file -->
+    <style>
+        
+        
+
+        @media (max-width: 768px) {
+            /* Adjustments for smaller screens */
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .container {
+                padding: 0 10px;
+            }
+        }
+
+        /* Styling for tabs */
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tab:hover {
+            background-color: #0056b3;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Style pour les images de matchs */
+        .match-image {
+            margin-bottom: 20px;
+        }
+
+        .match-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    </style>
+
+  </div>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site de Manon Dewald, dédié au tennis</h1>
+        <img src="images/pr.jpg" alt="Photo de Manon Dewald" width="200"> <!-- Reduced the size of the photo -->
+        <p>
+            Bonjour et bienvenue sur mon site dédié au tennis. En tant que passionnée de ce sport, j'ai créé cette plateforme pour offrir une source complète d'informations sur les joueurs, les classements, les actualités et les compétitions. Nous nous engageons à vous fournir une expérience enrichissante et informative dans le monde du tennis.
+            <a href="https://live-tennis.eu/fr/classement-atp-live">Découvrez le classement ATP en temps réel</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tab" onclick="openTab('tab1')">Infos Matchs</div>
+            <div class="tab" onclick="openTab('tab2')">Gossip Life</div>
+            <div class="tab" onclick="openTab('tab3')">Évolution des Classements</div>
+        </div>
+
+        <!-- Tab contents -->
+        <div class="tab-content" id="tab1">
+            <div class="card-white">
+                <h2>Infos sur les matchs</h2>
+                <p>
+                    Cette section est dédiée à vous fournir toutes les informations pertinentes et les anecdotes passionnantes sur les matchs de tennis. Restez informé(e) sur les derniers résultats, les performances des joueurs et les moments forts des tournois.
+                </p>
+                <div class="match-image">
+                    <img src="images/federer-novak.jpg" alt="Match de tennis sur gazon">
+                    <p>Match de tennis sur gazon entre Roger Federer et Novak Djokovic.</p>
+                </div>
+                <div class="match-image">
+                    <img src="images/nadal.jpg" alt="Match de tennis en nocturne">
+                    <p>Match de tennis en nocturne entre Rafael Nadal et Andy Murray.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="tab2">
+          
+            <div class="card-white">
+                <h2>Gossip Life</h2>
+                <p>
+                    Plongez dans les coulisses du monde du tennis avec notre section Gossip Life. Découvrez les scoops croustillants sur la vie privée et professionnelle des joueurs, ains&i que les derniers potins et rumeurs du circuit.
+                </p>
+            </div>
+            <div>  <img src="images/enfants.jpg#
+           <div>
+           < src="images/enfants.jpg alt="Enfants de Federer">
+    <p>Voici Léo et Lenny, les deux garçons de Roger Federer, venant voir leur père après son entraînement à Wimbledon.</p>
+</div>
+        </div>
+
+        <div class="tab-content" id="tab3">
+            <div class="card-white">
+                <h2>Évolution des classements</h2>
+                <p>
+                    Explorez l'évolution des classements ATP et WTA avec notre analyse professionnelle. Obtenez des insights exclusifs sur les performances des joueurs et les tendances à surveiller pour l'année à venir.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+      
+        function openTab(tabName) {
+            var i, tabContent;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+
+   
+    
+    <footer>
+        <p>Le tennis, un sport d'une élégance inégalée et d'une précision incroyable, possède une histoire fascinante qui remonte à plusieurs siècles. Imaginez-vous, au XIIe siècle, des nobles français jouant au jeu de paume, une version primitive du tennis, dans leurs cours royales. Puis, au fil du temps, le sport s'est propagé à travers l'Europe, adoptant des raquettes et des règles plus structurées. Mais c'est vraiment au XIXe siècle que le tennis moderne a commencé à prendre forme, avec la naissance des premiers clubs en Angleterre. Le tournoi de Wimbledon, avec ses courts de gazon, est rapidement devenu le joyau de la couronne, attirant les meilleurs joueurs du monde entier pour rivaliser dans un tournoi aussi historique que prestigieux. De nos jours, le tennis est plus qu'un simple sport, c'est une passion partagée par des millions de fans à travers le globe. Chaque année, nous attendons avec impatience les grands rendez-vous tennistiques, de l'Open d'Australie à Roland-Garros en passant par l'US Open. Les surfaces variées, des tournois épiques et les duels mémorables entre les légendes du tennis font de ce sport un spectacle inoubliable. Et avec l'émergence de nouveaux talents et l'innovation technologique qui ne cesse de progresser, l'histoire du tennis continue de s'écrire, promettant des moments de suspense et d'excitation pour les années à venir.</p>
+    </footer> 
+    <i class="fa-regular fa-tennis-ball"></i>
+</body>
+
+</svg>
+
+<div class="container">
+        
+        <div class="tabs">
+            <div class="tab" 
+            <div class="tab" 
+    </div>
+<div class="social-networks" style="order:3;" data-v-135b2d5d=""><div title="Retrouvez-nous sur" tweetiframe="<blockquote class=&quot;twitter-tweet&quot;><p lang=&quot;en&quot; dir=&quot;ltr&quot;>32 players, 16 girls, 16 boys. 1 dream: a wildcard for Roland-Garros Junior.<br><br>Brazil awaits the best Latin American U16 players to compete in Roland-Garros Junior Series by Renault 🎾🇧🇷<a href=&quot;https://twitter.com/RenaultBrasil?ref_src=twsrc%5Etfw&quot;>@RenaultBrasil</a> | <a href=&quot;https://twitter.com/All?ref_src=twsrc%5Etfw&quot;>@all</a> | <a href=&quot;https://twitter.com/ESPNBrasil?ref_src=twsrc%5Etfw&quot;>@ESPNBrasil</a> | <a href=&quot;https://twitter.com/delpotrojuan?ref_src=twsrc%5Etfw&quot;>@delpotrojuan</a> | <a href=&quot;https://twitter.com/COSAToficial?ref_src=twsrc%5Etfw&quot;>@COSAToficial</a> <a href=&quot;https://t.co/joPJaG8oC6&quot;>pic.twitter.com/joPJaG8oC6</a></p>&amp;mdash; Roland-Garros (@rolandgarros) <a href=&quot;https://twitter.com/rolandgarros/status/1770823081889587344?ref_src=twsrc%5Etfw&quot;>March 21, 2024</a></blockquote> <script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;></script>" logoinstatextlight="<img alt=&quot;&quot; src=&quot;https://fft-rg-site.cdn.prismic.io/fft-rg-site/dec55ade-7fa2-45b2-963b-c6e643899ed4_Vector+%281%29.svg&quot; width=&quot;215&quot; height=&quot;63&quot; />" logoinstatextdark="<img alt=&quot;&quot; src=&quot;https://fft-rg-site.cdn.prismic.io/fft-rg-site/5582b533-2ece-46ef-94fe-71691893d16b_Vector.svg&quot; width=&quot;215&quot; height=&quot;63&quot; />" socialnetworkitems="[object Object],[object Object],[object Object],[object Object],[object Object]" class="socialNetworks" data-v-642a3f68="" data-v-135b2d5d=""><aside aria-label="social" class="grid-2" data-v-642a3f68=""><div class="tweet" data-v-642a3f68=""><div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 550px; height: 697px; display: block; flex-grow: 1;" title="X Post" src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1770823081889587344&amp;lang=fr&amp;origin=https%3A%2F%2Fwww.rolandgarros.com%2Ffr-fr%2F&amp;sessionId=cce8e98c7c929a06d5df2c1dcbbc3bdf535df4d8&amp;theme=light&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716&amp;width=550px" data-tweet-id="1770823081889587344"></iframe></div> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div></h2> <ul class="sub-grid-2" data-v-3492893a=""><li class="item" data-v-3492893a=""><a href="https://www.instagram.com/p/C5k2GShIYJ3/" target="_blank" data-v-3492893a=""><article class="hp-social" data-v-3492893a=""></div>
+<div data-v-3b83fbca=""><div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 540px; height: 877px; display: block; flex-grow: 1;" title="X Post" src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-1&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1649348050316296194&amp;lang=fr&amp;origin=https%3A%2F%2Fwww.rolandgarros.com%2Ffr-fr%2Farticle%2Froland-garros-2023-reseaux-sociaux-joueurs-proteges-bodyguard&amp;sessionId=90cf1713fdb588d43cdc7e90460eff64365a7033&amp;theme=light&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716&amp;width=550px" data-tweet-id="1649348050316296194"></iframe></div> </div>
+</html>
